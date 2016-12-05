@@ -20,6 +20,7 @@ public class Main {
 	static ArrayList<Area> areas2 = new ArrayList<Area>();
 
 	/**
+	 * 执行之后，f5刷新即可看到xml以及json文件
 	 * @param args
 	 */
 
@@ -27,7 +28,7 @@ public class Main {
 
 		File xlsFile = new File("area.xls");
 		File xmlFile = new File("area.xml");
-		File jsonFile = new File("area.json");
+		File jsonFile = new File("area.txt");
 
 		xls2Xml(xlsFile, xmlFile);// xls文档转为xml
 		Xml2Json.trans(xmlFile, jsonFile);// xml转为json
