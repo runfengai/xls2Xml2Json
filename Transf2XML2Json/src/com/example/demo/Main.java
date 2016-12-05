@@ -1,4 +1,5 @@
 package com.example.demo;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,7 +15,7 @@ import jxl.Workbook;
  * @author runfengai
  */
 public class Main {
-	//
+	// 实体装载
 	static ArrayList<Area> areas = new ArrayList<Area>();
 	static ArrayList<Area> areas2 = new ArrayList<Area>();
 
