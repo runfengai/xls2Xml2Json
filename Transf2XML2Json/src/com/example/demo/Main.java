@@ -10,7 +10,7 @@ import jxl.Sheet;
 import jxl.Workbook;
 
 /**
- * 将xls的数据转为xml、json数据
+ * 将xls的数据转为xml、json数据,branch1修改的
  * 
  * @author runfengai
  */
